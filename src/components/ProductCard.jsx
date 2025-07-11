@@ -1,4 +1,11 @@
-import Price from "./price";
+import {Component} from "react";
+
+class Price extends Component {
+    render() {
+        return null;
+    }
+}
+
 export default function ProductCard({ product }) {
   return (
     <div className="product-card">
